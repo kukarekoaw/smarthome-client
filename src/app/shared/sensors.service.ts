@@ -7,8 +7,7 @@ import 'rxjs/add/operator/toPromise';
 @Injectable()
 export class SensorsService {
     //private server = 'http://192.168.1.13:8181';
-    //private server = 'http://smarthome';
-    private server = 'http://109.194.67.74:7070';
+    private server = 'http://smarthome';
     private apiUrl = `${this.server}/api/sensors`;
 
     constructor(private http: Http) {}
